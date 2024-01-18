@@ -1,0 +1,10 @@
+10 RANDOMIZE
+20 LET x = IP(RND*3)
+30 IF x = 0 THEN
+40     PRINT "大吉です"
+50 ELSE IF x = 1 THEN
+60     PRINT "普通です"
+70 ELSE
+80     PRINT "凶です"
+90 END IF
+100 END
